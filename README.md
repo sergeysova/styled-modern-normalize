@@ -46,7 +46,7 @@ const { Normalize } = require('@styled/modern-normalize')
 You can also import [css] without Component API:
 
 ```js
-import { normalize } from '@styled/modern-normalize`
+import { normalize } from '@styled/modern-normalize'
 // Different from `Normalize`
 
 // Example usage:
