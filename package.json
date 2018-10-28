@@ -1,8 +1,11 @@
 {
-  "name": "styled-modern-normalize",
+  "name": "@styled/modern-normalize",
   "version": "1.0.0",
   "description": "Modern normalize for styled-components CSS-in-JS library",
   "main": "dist/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "prefetch": "node ./bin/fetch.js",
     "update": "ncu -u modern-normalize && npm run prefetch",

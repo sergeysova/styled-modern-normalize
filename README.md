@@ -1,4 +1,4 @@
-# styled-modern-normalize
+# @styled/modern-normalize
 
 CSS-normalize library for [styled-components][].
 
@@ -8,7 +8,7 @@ The original `modern-normalize.css` is pulled from [sindresorhus/modern-normaliz
 ## Usage
 
 ```sh
-npm install --save styled-modern-normalize
+npm install --save @styled/modern-normalize
 ```
 
 ### Readme
@@ -19,7 +19,7 @@ Read styled-components [createGlobalStyle][] documentation
 
 ```js
 import React from 'react'
-import { Normalize } from 'styled-modern-normalize'
+import { Normalize } from '@styled/modern-normalize'
 
 import { App } from './app'
 
@@ -37,16 +37,16 @@ You can also use named imports:
 
 ```js
 // ES Modules
-import { Normalize } from 'styled-modern-normalize'
+import { Normalize } from '@styled/modern-normalize'
 
 // CommonJS
-const { Normalize } = require('styled-modern-normalize')
+const { Normalize } = require('@styled/modern-normalize')
 ```
 
 You can also import [css] without Component API:
 
 ```js
-import { normalize } from 'styled-modern-normalize`
+import { normalize } from '@styled/modern-normalize`
 // Different from `Normalize`
 
 // Example usage:

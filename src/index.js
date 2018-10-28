@@ -132,4 +132,4 @@ summary {
 
 export const Normalize = createGlobalStyle`${normalize}`
 
-export default normalize
+export default Normalize
