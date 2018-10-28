@@ -1,0 +1,49 @@
+{
+  "name": "styled-modern-normalize",
+  "version": "1.0.0",
+  "description": "Modern normalize for styled-components CSS-in-JS library",
+  "main": "dist/index.js",
+  "scripts": {
+    "prefetch": "node ./bin/fetch.js",
+    "update": "ncu -u modern-normalize && npm run prefetch",
+    "build": "babel -d dist src",
+    "prepublish": "npm run build"
+  },
+  "typings": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergeysova/styled-modern-normalize.git"
+  },
+  "keywords": [
+    "styled",
+    "components",
+    "normalize",
+    "css",
+    "react",
+    "jss",
+    "styles",
+    "import",
+    "export"
+  ],
+  "author": "Sergey Sova <mail@sergeysova.com> (https://sergeysova.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sergeysova/styled-modern-normalize/issues"
+  },
+  "homepage": "https://github.com/sergeysova/styled-modern-normalize#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "babel-plugin-styled-components": "^1.8.0",
+    "npm-check-updates": "^2.14.2",
+    "react": "^16.5.2",
+    "styled-components": "^4.0.0"
+  },
+  "peerDependencies": {
+    "styled-components": "^4.0.0"
+  },
+  "dependencies": {
+    "modern-normalize": "^0.5.0"
+  }
+}
