@@ -1,6 +1,6 @@
 {
   "name": "@styled/modern-normalize",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Modern normalize for styled-components CSS-in-JS library",
   "main": "dist/index.js",
   "publishConfig": {
